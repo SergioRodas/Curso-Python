@@ -341,3 +341,37 @@ if numero_1 % 2 == 0:
 else:
     print('El valor {} es impar.'.format(numero_1))
     
+
+print()
+
+# Operador de división entera: //
+
+numero_1 = 5
+numero_2 = 2
+
+division = numero_1 / numero_2
+
+print(f'División entre {numero_1} y {numero_2} es igual a {division}.') 
+
+print()
+
+division_entera = numero_1 // numero_2
+print(f'División entera entre {numero_1} y {numero_2} es igual a {division_entera}.') 
+
+print()
+
+# Operador de potencia: **
+print('Operador de potencia: **')
+
+base = 2
+exponente = 3
+
+potencia = base ** exponente
+
+print(f'La potencia de {base}^{exponente} es igual a {potencia}.')
+
+print()
+
+potencia = pow(base, exponente)
+print(f'La potencia de {base}^{exponente} es igual a {potencia}.')
+
