@@ -1,0 +1,1 @@
+'MENSAJE: El valor para la edad debe ser un número positivo.'
